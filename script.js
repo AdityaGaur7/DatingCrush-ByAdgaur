@@ -7,12 +7,25 @@ const card6 = document.querySelector('.c6');
 const dil1 = document.querySelector('.dil1');
 const dil2 = document.querySelector('.dil2');
 
+const btn = document.querySelector("#song");
+   function song(){
+    var audio = new Audio("song.mp3");
+    audio.play();
+    audio.loop = true;
+    btn.style.display="none";
+   }
+
+   
+
+
+
 const button = document.querySelector('.btn');
  function move1(e){
     card1.style.transform = "rotateY(-180deg) translateX(19.3rem)";
     card1.style.zIndex="6";
     dil1.style.left="40%";
     dil2.style.left="20%";
+   
  }
  function move2(e){
     card2.style.transform = "rotateY(-180deg) translateX(19.3rem)";

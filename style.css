@@ -198,7 +198,22 @@ body {
 
 
   }
-
+#song{
+  position: absolute;
+  top: 50%;
+  background: #e83838;
+  color: aliceblue;
+  text-transform: capitalize;
+  border-radius: 10px;
+  padding: .5rem;
+  left: 10%;
+}
+#song:hover{
+  transform: translateY(-4px);
+  background: #10ded7;
+  color: #e83838;
+  box-shadow: 2px 2px 3px black;
+}
 .btn{
    
     top:80%;
@@ -295,12 +310,12 @@ span{
 }
 @media (max-height:400px) {
   .dil1{
-    left:2%;
+    left:10%;
     top: 30%;
 
   }
   .dil2{
-    left: 1%;
-    top: 40%;
+    left: -2%;
+    top: 44%;
   }
 }
