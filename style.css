@@ -303,6 +303,7 @@ span{
   .alert{
     display: block;
   }
+<<<<<<< HEAD
 
  
 
@@ -311,11 +312,24 @@ span{
 @media (max-height:400px) {
   .dil1{
     left:10%;
+=======
+}
+@media (max-height:400px) {
+  .dil1{
+    left:2%;
+>>>>>>> 42e9352dd349f907025cd670477f9412135c91c1
     top: 30%;
 
   }
   .dil2{
+<<<<<<< HEAD
     left: -2%;
     top: 44%;
   }
 }
+=======
+    left: 1%;
+    top: 40%;
+  }
+}
+>>>>>>> 42e9352dd349f907025cd670477f9412135c91c1
