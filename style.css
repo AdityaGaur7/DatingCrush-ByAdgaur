@@ -321,6 +321,9 @@ span{
     top: 30%;
 
   }
+  #song{
+    display: none;
+  }
   .dil2{
 <<<<<<< HEAD
     left: -2%;
