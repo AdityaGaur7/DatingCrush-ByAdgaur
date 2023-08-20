@@ -295,6 +295,11 @@ span{
   text-transform: capitalize;
 
 }
+.foot h2{
+  text-shadow: 2px 3px 2px rgb(11, 239, 247);
+  color: #ff0505;
+}
+
 
 @media (max-width:700px) {
   .body{
