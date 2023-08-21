@@ -9,7 +9,7 @@ const dil2 = document.querySelector('.dil2');
 
 const btn = document.querySelector("#song");
    function song(){
-    var audio = new Audio("song.mp3");
+    var audio = new Audio("Your Eyes.mp4.mp4");
     audio.play();
     audio.loop = true;
     btn.style.display="none";
