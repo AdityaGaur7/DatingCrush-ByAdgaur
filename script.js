@@ -17,7 +17,9 @@ const btn = document.querySelector("#song");
 
    
 
-
+//https://drive.google.com/file/d/1C8ZoNSiERfefffriS_a_MhNtRPv0znkI/view?usp=sharing//
+//https://drive.google.com/file/d/1C8ZoNSiER-HBdpyiS_a_MhNtRPv0znkI/view?usp=sharing//
+//https://drive.google.com/file/d/1C8ZoNSiER-HBfwefwwfe_MhNtRPv0znkI/view?usp=sharing//
 
 const button = document.querySelector('.btn');
  function move1(e){
